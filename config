@@ -1,0 +1,97 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showLogo": true,
+      "showMenu": true,
+      "showSearch": true
+    },
+
+    {
+      "layout" : "largeCardHorizontalListItems",
+      "imageBorder": 20,
+      "category": 1300,
+      "name": "Home"
+    },
+    {
+      "layout" : "sliderList",
+      "type" :"imageOnTheRight",
+      "name": "News",
+      "category": 938,
+      "imageBorder": 20
+    },
+
+
+
+    {
+      "layout" : "sliderList",
+      "type" :"imageOnTheLeft",
+      "name": "Business",
+      "category": 2,
+      "imageBorder": 20
+    },
+
+    {
+      "layout" : "sliderItem",
+
+      "name": "Perspective",
+      "category": 1246
+    },
+    {
+      "layout" : "sliderItem",
+
+      "name": "National Review",
+      "category": 931
+    },
+    {
+      "name": "Sports",
+      "image": "",
+      "layout": "twoColumn",
+      "category": 900
+    },
+    {
+      "name": "Religion",
+      "image": "",
+      "layout": "twoColumn",
+      "category": 933
+    },
+
+    {
+      "name": "Lifestyles",
+      "image": "",
+      "layout": "staggered",
+      "category": 934
+    }
+
+
+  ],
+  "Setting": {
+    "MainColor": "#005DAA",
+    "ProductListLayout": "list"
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "assets/icons/tabs/icon-home.png"
+    },
+    {
+      "layout": "category",
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png",
+      "showSearch": false
+    },
+    {
+      "layout": "search",
+      "icon": "assets/icons/tabs/icon-search.png"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png",
+      "showChat": true
+    }
+  ],
+  "SplashScreen": {
+    "type": "animated",
+    "data" : "assets/images/splashscreen.png"
+  }
+}
